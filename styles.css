@@ -6,7 +6,7 @@
 }
 
 .body {
-    margin-left:21%;
+    margin-left: 21%;
     margin-right: 21%;
     margin-top: 7.5%;
     margin-bottom: 8%;
@@ -16,7 +16,7 @@ h1 {
     font-size: 400%;
     letter-spacing: 2%;
     word-spacing: 12%;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
 }
 
 h2 {
@@ -31,7 +31,6 @@ h3 {
     font-style: italic;
 }
 
-
 p {
     font-weight: 200;
     font-size: x-large;
@@ -44,104 +43,14 @@ p {
     font-style: italic;
 }
 
-/* navbar */
-
-#mylogo {
-    height: 7.5%;
-    width: 5%;
-    position: absolute;
-    margin-left: 2%;
-    margin-top: -1%;
-}
-
-#homelink {
-    margin-left: -89%;
-
-}
-
-#mylogo2 {
-
-    height: 7.5%;
-    width: 4%;
-    position: absolute;
-    margin-left: 2.5%;
-    margin-top: -1%;
-    padding: 0.3%;
-    border-radius: 48%;
-}
-
-.navbar {
-    background: none;
-    font-size: large;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-    overflow: hidden;
-    background: none;
-    
-}
-
-li {
-    float: right;
-    display: block;
-    text-align: center;
-    padding-right: 2.5%;
-    padding-top: 2%;
-    background: none;
-}
-
-li a {
-    display: block;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-     background: none;
-     font-size: 115%;
-     font-weight:bold;
-}
-
-li a:hover:not(:active) {
-    opacity: 0.5;
-}
-
-/* home page */
-
-.container1 {
-    position: relative;
-    text-align: center;
-    margin: 0%;
-    padding: 0%;
-
-}
-
-#backdrop {
-    width: 100%;
-    height: 50%;
-    padding-bottom: 7%;
-}
-
-.myname {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -73%);
-    background: none;
-    font-size: 560%;
-    font-weight: bolder;
-    letter-spacing: .09em;
-    font-family: "Prata", serif;
-
-  }
-
-#hi {
+#title-pink {
     color: #d59898;
     font-size: 150%;
 }
 
-#intro {
+/* Home page */
+
+#introText {
     font-weight: 300;
     font-size: 180%;
     line-height: 140%;
@@ -151,7 +60,7 @@ li a:hover:not(:active) {
     margin-right: 14%;
 }
 
-#picofme {
+#photoOfMe {
     width: 20%;
     height: 45%;
     position: absolute;
@@ -160,7 +69,7 @@ li a:hover:not(:active) {
     border-radius: 4px;
 }
 
-.GalleryButton {
+.galleryButton {
     border: none;
     color: #d59898;
     padding-left: 2%;
@@ -173,143 +82,11 @@ li a:hover:not(:active) {
     margin-bottom: 16%;
 }
 
-.GalleryButton:hover {
+.galleryButton:hover {
     font-size: 82%;
 }
 
-/* line separation */
-
-#line {
-    margin-bottom: 8% ;
-    margin-top: 5%;
-    border-bottom: 1px solid #53463f;
-  }
-
-/* link button */
-
-.linkButton {
-    text-decoration: none;
-    padding: 1.5% 1.5%;
-    color:  #DCA1A1;
-    background-color: #fce7e0;
-    border-radius: 18px;
-}
-
-.linkButton:hover {
-    padding: 1.65%;
-    border-radius: 18.5px;
-}
-
-/* MDO project */
-  
-#p1 {
-    width: 99.9%;
-    margin-bottom:3.5%;
-    border-radius: 0.7%;
-   
- }
-
- #p2 {
-    width: 47.599%;
-    margin-right: 3.5%;
-    border-radius: 1.2%;
-    margin-bottom:3.5%;
-
- }
-
- #p3 {
-    width: 47.599%;
-    border-radius: 1.2%;
-    margin-bottom:3.5%;
-  
- }
-
- #p4 {
-    width: 99.9%;
-    border-radius: 0.7%;
-    
- }
-
-/* DMN project */
-
- #DMN {
-    width: 100%;
-    height: 100%;
-    border-radius: 0.7%;
-    border: 1px solid #53463fb9;
- }
-
-/* Visa 110 project */
-
-#VisaFruit {
-    width: 32%;
-    height: 32%;
-    border-radius: 0.7%;
-    padding-bottom: 1%;
-    margin-left: -1.5%;
- }
-
-#VisaToast {
-    width: 29%;
-    height: 29%;
-    border-radius: 0.7%;
-    padding-bottom: 2.4%;
-    margin-left: 1.7%;
-
- }
-
-#VisaTea {
-    width: 37%;
-    height: 37%;
-    border-radius: 0.7%;
- }
-
-
-/* About me page */
-
-.aboutMeText {
-    font-weight: 300;
-    font-size: 180%;
-    line-height: 140%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 10%;
-    margin-bottom: 13%;
-}
-
-#me {
-    margin-left: 60%;
-    margin-top: -33%;
-    height: 26%;
-    width: 26%;
-    margin-bottom: 8.5%;
-}
-
-/* contact  */
-
-.pagebottom {
-    background-color: #fce7e0;
-    margin: 0;
-    padding-top: 3.5%;
-    padding-bottom: 3.5%;
-    padding-left: 3.5%;
-}
-
-.pagebottomtext {
-    text-decoration: none;
-    background-color: #fce7e0;
-    color: #DCA1A1;
-    font-size: large;
-    font-style: italic;
-    font-weight: 200;
-    margin-left: 44.5%;
-    letter-spacing: 5%;
-    word-spacing: 5%;
-}
-
-
-
-/* projects gallery page */
+/* Gallery page */
 
 .container {
     margin-top: -3%;
@@ -349,19 +126,109 @@ li a:hover:not(:active) {
     opacity: 1;
 }
 
-.gallery4 {
+.gallery {
     display: flex;
     flex-direction: column;
-  }
-  
-  .gallery4-row {
-    display: flex;
-  }
-  
-  .gallery4-item {
-    padding: 0% 3.7% 0% 3.7%;
-  }
+}
 
+.gallery-row {
+    display: flex;
+}
+
+.gallery-item {
+    padding: 0% 3.7% 0% 3.7%;
+}
+
+/* About page */
+
+.aboutText {
+    font-weight: 300;
+    font-size: 180%;
+    line-height: 140%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    margin-bottom: 13%;
+}
+
+#me {
+    margin-left: 60%;
+    margin-top: -33%;
+    height: 26%;
+    width: 26%;
+    margin-bottom: 8.5%;
+}
+
+/* Navbar */
+
+#myLogo {
+    height: 7%;
+    width: 4.5%;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: -1%;
+}
+
+.navbar {
+    background: none;
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background: none;
+
+}
+
+li {
+    float: right;
+    display: block;
+    text-align: center;
+    padding-right: 2.5%;
+    padding-top: 2%;
+    background: none;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background: none;
+    font-size: 115%;
+    font-weight: bold;
+}
+
+li a:hover:not(:active) {
+    opacity: 0.5;
+}
+
+/* Contact  */
+
+.pageBottom {
+    background-color: #fce7e0;
+    margin: 0;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    padding-left: 3.5%;
+}
+
+.pageBottomText {
+    text-decoration: none;
+    background-color: #fce7e0;
+    color: #DCA1A1;
+    font-size: large;
+    font-style: italic;
+    font-weight: 200;
+    margin-left: 44.5%;
+    letter-spacing: 5%;
+    word-spacing: 5%;
+}
+
+/* Top arrow button */
 
 .topArrow {
     margin-top: 10%;
@@ -379,4 +246,62 @@ li a:hover:not(:active) {
     opacity: 0.7;
 }
 
+/* Line separation */
 
+#line {
+    margin-bottom: 8%;
+    margin-top: 5%;
+    border-bottom: 1px solid #53463f;
+}
+
+/* External link button */
+
+.linkButton {
+    text-decoration: none;
+    padding: 1.5% 1.5%;
+    color: #DCA1A1;
+    background-color: #fce7e0;
+    border-radius: 18px;
+}
+
+.linkButton:hover {
+    padding: 1.65%;
+    border-radius: 18.5px;
+}
+
+/* Image gallery placement */
+
+#p0 {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7%;
+    border: 1px solid #53463fb9;
+}
+
+#p1 {
+    width: 99.9%;
+    margin-bottom: 3.5%;
+    border-radius: 0.7%;
+
+}
+
+#p2 {
+    width: 47.599%;
+    margin-right: 3.5%;
+    border-radius: 1.2%;
+    margin-bottom: 3.5%;
+
+}
+
+#p3 {
+    width: 47.599%;
+    border-radius: 1.2%;
+    margin-bottom: 3.5%;
+
+}
+
+#p4 {
+    width: 99.9%;
+    border-radius: 0.7%;
+
+}
